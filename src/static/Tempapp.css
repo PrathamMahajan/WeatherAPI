@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    height: 50vh;
+    background-color: rgb(229, 210, 241);
+    border-radius: 10px;
+  }
+  
+  .box {
+    background-color: #83c4e7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .inputData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputField {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .temp {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .tempmin_max {
+    font-size: 18px;
+  }
+  
